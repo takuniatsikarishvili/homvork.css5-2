@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #07081A;
+}
+.conteiner{
+    max-width: 1040px;
+    width: 100%;
+    padding: 28px 0;
+
+}
+ul{
+    list-style: none;
+}
+.divmane{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #261C51;
+}
+.logo{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlist{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+
+}
+.navlist:hover{
+    color: #8CE900;
+}
+nav ul{
+    display: flex;
+    gap: 24px;
+}
+/*main*/
+.divgap{
+    display: flex;
+    flex-direction: column;
+
+    gap: 64px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hiro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hiro h1{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 52px;
+}
+.color{
+    display: flex;
+    background: #242642;
+    padding: 40px 72px;
+    justify-content: space-between;
+    margin-bottom: 200px;
+
+}
+.div400{
+
+
+}
+.div400 span{
+    color: #8CE900;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 60px;
+}
+.div400 p{
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.footerConteiner{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.divsize p{
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+
+}
+
