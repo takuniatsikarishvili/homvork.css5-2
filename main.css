@@ -128,4 +128,10 @@ footer{
     margin-top: 16px;
 
 }
+.listgap {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
 
